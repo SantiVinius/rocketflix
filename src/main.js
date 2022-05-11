@@ -14,7 +14,7 @@ const listMovie = filme => {
     } else {
         title.innerHTML = 'Ops...'
         description.innerHTML = 'Esse filme não foi encontrado!'
-        image.src = './assets/sad.png'
+        image.src = '../assets/sad.png'
     }
 }
 
