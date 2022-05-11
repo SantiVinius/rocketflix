@@ -7,7 +7,7 @@ O desafio foi proposto pela Rocketseat na trilha Discover. Confira mais detalhes
  ![screenshot](https://github.com/SantiVinius/rocketflix/blob/master/2.png?raw=true) 
  
  
- ## Projeto desenvolvido utilizando
+ ## Projeto desenvolvido com:
  
  - HTML, CSS e Javascript
  - API do themoviedb.org (https://developers.themoviedb.org/3/getting-started/introduction)
