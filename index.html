@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            rel="shortcut icon"
+            href="/assets/favico/favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Rocketflix</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+            rel="stylesheet"
+        />
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script type="module" src="main.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <img class="shufleIcon" src="./assets/shuffle.svg" alt="" />
+            <h1>Não sabe o que assistir?</h1>
+
+            <div class="movie_container">
+                <img id="movie_image" src="" alt="" />
+                <div class="movie_details">
+                    <h3 id="movie_title"></h3>
+                    <p id="movie_description"></p>
+                </div>
+            </div>
+
+            <button id="btn-movie" type="button">
+                <img class="btn_icon" src="./assets/shuffle.svg" alt="" />
+                Encontrar filme
+            </button>
+
+            <p>
+                Clique em "Encontrar filme" que traremos informações <br />
+                de algum filme para você assistir hoje.
+            </p>
+        </div>
+    </body>
+</html>

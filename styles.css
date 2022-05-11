@@ -1,0 +1,134 @@
+:root {
+    --title: #fffcf9;
+    --subtitle: #b3b3b3;
+    --bg-button: #e9e6e3;
+    --background: linear-gradient(43deg, #102d71 0%, #000000 52%, #c12a23 100%);
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: var(--background);
+    background-repeat: no-repeat;
+
+    font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
+
+    margin: 0px 0px 100% 0px;
+}
+
+h1 {
+    color: var(--title);
+    font-size: 30px;
+    line-height: 60px;
+    margin-top: 0;
+}
+
+p {
+    color: var(--title);
+    font-size: 12px;
+    font-weight: 400;
+
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shufleIcon {
+    width: 87px;
+    height: 63px;
+    margin-top: 70px;
+}
+
+button {
+    width: 160px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    background: #e9e6e3;
+    border: 2px solid #1a1a1a;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-size: 11px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    opacity: 0.7;
+    background: #e5dacf;
+}
+
+.btn_icon {
+    width: 30px;
+    height: 22px;
+}
+
+.movie_container {
+    display: flex;
+    width: 500px;
+    color: #fffcf9;
+    margin-bottom: 50px;
+}
+
+.movie_container img {
+    width: 150px;
+}
+
+.movie_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.movie_details h3 {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.movie_details p {
+    margin-left: 20px;
+    text-align: justify;
+    justify-content: start;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    .movie_container {
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+    }
+
+    .movie_container img {
+        width: 200px;
+    }
+
+    .movie_details {
+        margin-top: 10px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .movie_details h3 {
+        margin-left: 0;
+    }
+
+    .movie_details p {
+        margin: 10px 100px;
+    }
+}
